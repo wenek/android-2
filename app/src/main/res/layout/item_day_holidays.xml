@@ -1,0 +1,32 @@
+<!-- item_day_holidays.xml -->
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="8dp">
+
+    <!-- Nagłówek miesiąca -->
+    <TextView
+        android:id="@+id/text_month"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/black"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:paddingStart="16dp"
+        android:paddingTop="8dp"
+        android:paddingBottom="8dp"
+        android:background="@android:color/darker_gray"
+        android:gravity="center_vertical"/>
+
+    <!-- Lista dni ze świętami -->
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recycler_view_days"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingStart="16dp"
+        android:paddingTop="8dp"
+        android:paddingBottom="8dp"/>
+
+</LinearLayout>

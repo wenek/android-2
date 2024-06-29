@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Nietypowy Kalendarz</string>
+    <string name="witaj_w_nietypowym_kalendarzu">Witaj w nietypowym kalendarzu</string>
+    <string name="zaloguj_si">Zaloguj się</string>
+    <string name="zarejestruj_si">Zarejestruj się</string>
+    <string name="kontunuuj_bez_konta">Kontunuuj bez konta</string>
+    <string name="navigation_drawer_open">Otwórz nawigację</string>
+    <string name="navigation_drawer_close">Zamknij nawigację</string>
+</resources>
