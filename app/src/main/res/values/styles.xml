@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Kolor podstawowy dla paska akcji i przycisków -->
+        <item name="colorPrimary">#3F51B5</item>
+        <!-- Ciemniejszy odcień koloru podstawowego -->
+        <item name="colorPrimaryDark">#303F9F</item>
+        <!-- Kolor akcentu, używany na przykład dla przycisków wyróżniających -->
+        <item name="colorAccent">#FF4081</item>
+        <!-- Tło głównego okna aplikacji -->
+        <item name="android:windowBackground">@color/background_light</item>
+        <!-- Kolor tekstu na ekranie -->
+        <item name="android:textColor">@color/text_primary</item>
+    </style>
+</resources>
