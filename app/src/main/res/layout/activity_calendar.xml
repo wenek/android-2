@@ -8,13 +8,14 @@
 
     <Button
         android:id="@+id/buttonViewHolidays"
-        android:layout_width="86dp"
-        android:layout_height="33dp"
+        android:layout_width="89dp"
+        android:layout_height="39dp"
         android:layout_gravity="center"
         android:layout_marginTop="12dp"
         android:layout_marginEnd="16dp"
         android:onClick="onViewHolidaysClicked"
         android:text="More"
+        android:textSize="10sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 

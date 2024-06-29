@@ -3,7 +3,6 @@ package com.example.nietypowykalendarz
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
-import com.example.nietypowykalendarz.Holiday
 import com.example.nietypowykalendarz.databinding.ItemHolidayBinding
 
 class HolidaysAdapter : RecyclerView.Adapter<HolidaysAdapter.HolidayViewHolder>() {
